@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Scholarship Exam Result</title>
+    <title>Student List</title>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
     <style>
         body {
@@ -77,7 +77,7 @@
                             <td>${student.name}</td>
                             <td>${student.address}</td>
                             <td>${student.email}</td>
-                            <td>${student.phone}%</td>
+                            <td>${student.phone}</td>
                         </tr>
                     `;
                 });
